@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+	  <parameter name="url" value="https://www.amazon.in/"/>
+	  <parameter name="test" value="10"/>
+    <classes>
+      <class name="Demo1.paramterDemo"/>
+    </classes>
+  </test> 
+</suite> 
